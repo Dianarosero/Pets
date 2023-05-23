@@ -12,7 +12,7 @@ $email = $_POST['email'];
 $pass = md5($_POST['passwd']);
 
 //insertamos los datos a la base de datos 
-$sql = "INSERT INTO users(first_name,last_name,numbre_id,address,celphone,email,password)
+$sql = "INSERT INTO users(first_name,last_name,number_id,address,celphone,email,password)
 VALUES('$fname','$lname','$idnum','$address','$celPhone','$email','$pass')";
 
 

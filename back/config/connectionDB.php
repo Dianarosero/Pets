@@ -17,7 +17,7 @@ if($conn->connect_error){
  echo "conexion fallida ".$conn->connect_error;
 
 }else{
-    echo"conexcion satisfactoria";
+    //echo"conexion satisfactoria";
 }
 
 
